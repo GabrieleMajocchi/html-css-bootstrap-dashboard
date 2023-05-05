@@ -24,6 +24,9 @@
     /* width: 170px; */
 }
 
+.my_bottom{
+    bottom: 1.5rem;
+}
 .my_test1{
     height: 200px;
     border: 2px dashed red;

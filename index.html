@@ -28,7 +28,7 @@
             <img src="img/mobile-logo.png" alt="mobile Boolean logo" class="d-sm-none">
             <img src="img/logo.svg" alt="Boolean logo" class="d-none d-sm-block">
             <div class="col">
-                <form class="d-flex" role="search">
+                <form class="d-flex my-1" role="search">
                     <input class="form-control" type="search" placeholder="Prova a cercare: Lezioni di Laravel">
                 </form>
             </div>
@@ -44,8 +44,32 @@
     <div class="container-fluid">
         <div class="row">
             <!-- ----Left Navbar---- -->
-            <div class="col-1 my_nav text-white">
-                
+            <div class="col-1 my_nav text-white position-relative">
+                <div class="row">
+                    <div class="col d-flex flex-column align-items-center py-4">
+                        <div class="my_top">
+                            <div class="my_nav-bot">
+                                <i class="fa-solid fa-house me-sm-3 mb-3" style="color: #ffffff;"></i>
+                                <span class="d-none d-sm-inline-block">Home</span>
+                            </div>
+                            <div class="my_nav-bot">
+                                <i class="fa-solid fa-chart-simple me-sm-3 mb-3" style="color: #ffffff;"></i>
+                                <span class="d-none d-sm-inline-block">Stats</span>
+                            </div>
+                            <div class="my_nav-bot">
+                                <i class="fa-solid fa-signal me-sm-3" style="color: #ffffff;"></i>
+                                <span class="d-none d-sm-inline-block">Signals</span>
+                            </div>
+                        </div>
+                        <div class="my_bottom position-absolute">
+                            <div class="my_nav-bot">
+                                <i class="fa-solid fa-gear me-sm-3" style="color: #ffffff;"></i>
+                                <span class="d-none d-sm-inline-block">Admin</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-none d-md-block col-8"></div>
+                </div>
             </div>
             <!-- ----Central elements---- -->
             <div class="col">
