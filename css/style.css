@@ -1,0 +1,28 @@
+.my_search{
+    height: 70px;
+    background-color: grey;
+}
+
+.my_bg-blu{
+    background-color: blue;
+    height: 80px;
+}
+
+.my_nav{
+    background-color: blueviolet;
+    height: calc(100vh - 70px);
+    width: 170px;
+    /* ----md size--- */
+    /* width: 170px; */
+}
+
+.my_test1{
+    height: 200px;
+    border: 2px dashed red;
+}
+
+@media screen and (max-width: 576px) {
+    .my_nav{
+        width: 70px;
+    }
+}
