@@ -1,17 +1,25 @@
-.my_search{
-    height: 70px;
-    background-color: grey;
+.my_search img:first-child{
+    width: 70px;
+}
+
+.my_search img:nth-child(2){
+    width: 175px;
 }
 
 .my_bg-blu{
-    background-color: blue;
-    height: 80px;
+    background-color: #1b72e8;
+    height: 260px;
+}
+
+.my_right-search{
+    width: fit-content;
 }
 
 .my_nav{
-    background-color: blueviolet;
+    background-color: #051e34;
+    background-image: url(../img/sidebar-bg.png);
     height: calc(100vh - 70px);
-    width: 170px;
+    width: 70px;
     /* ----md size--- */
     /* width: 170px; */
 }
@@ -21,8 +29,13 @@
     border: 2px dashed red;
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (min-width: 576px) {
     .my_nav{
-        width: 70px;
+        width: 170px;
+    }
+
+    .my_bg-blu{
+        background-color: #1b72e8;
+        height: 120px;
     }
 }
