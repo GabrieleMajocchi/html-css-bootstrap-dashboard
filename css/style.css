@@ -28,6 +28,11 @@
     /* width: 170px; */
 }
 
+.my_center{
+    height: calc(100vh - 70px);
+    overflow: auto;
+}
+
 .my_bottom{
     bottom: 1.5rem;
 }
