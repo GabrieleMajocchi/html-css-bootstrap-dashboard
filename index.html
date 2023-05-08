@@ -22,25 +22,27 @@
 
 
 <body>
+
+
     <!-- ----Top Search bar---- -->
-    <section class="my_search container-fluid">
-        <div class="row py-3">
-            <img src="img/mobile-logo.png" alt="mobile Boolean logo" class="d-md-none">
-            <img src="img/logo.svg" alt="Boolean logo" class="d-none d-md-block">
-            <div class="col">
-                <form class="d-flex my-1" role="search">
-                    
-                    <input class="form-control" type="search" placeholder="Prova a cercare: Lezioni di Laravel">
-                </form>
+        <section class="my_search container-fluid">
+            <div class="row py-3 bg-white">
+                <img src="img/mobile-logo.png" alt="mobile Boolean logo" class="d-md-none">
+                <img src="img/logo.svg" alt="Boolean logo" class="d-none d-md-block">
+                <div class="col">
+                    <form class="d-flex my-1" role="search">
+                        
+                        <input class="form-control" type="search" placeholder="Prova a cercare: Lezioni di Laravel">
+                    </form>
+                </div>
+                <div class="my_right-search m-auto">
+                    <i class="fa-solid fa-list d-none d-md-inline-block me-3" style="color: #5b5858;"></i>
+                    <i class="fa-solid fa-circle-question d-none d-md-inline-block me-3" style="color: #5b5858;"></i>
+                    <i class="fa-solid fa-ellipsis-vertical d-none d-md-inline-block me-3" style="color: #5b5858;"></i>
+                    <i class="fa-solid fa-bell" style="color: #ff8f00;"></i>
+                </div>
             </div>
-            <div class="my_right-search m-auto">
-                <i class="fa-solid fa-list d-none d-md-inline-block me-3" style="color: #5b5858;"></i>
-                <i class="fa-solid fa-circle-question d-none d-md-inline-block me-3" style="color: #5b5858;"></i>
-                <i class="fa-solid fa-ellipsis-vertical d-none d-md-inline-block me-3" style="color: #5b5858;"></i>
-                <i class="fa-solid fa-bell" style="color: #ff8f00;"></i>
-            </div>
-        </div>
-    </section>
+        </section>
 
     <div class="container-fluid">
         <div class="row">
@@ -49,22 +51,22 @@
                 <div class="row">
                     <div class="col d-flex flex-column align-items-center py-4">
                         <div class="my_top">
-                            <div class="my_nav-bot">
-                                <i class="fa-solid fa-house me-md-3 mb-3" style="color: #ffffff;"></i>
+                            <div class="my_nav-bot px-1">
+                                <i class="fa-solid fa-house me-md-3 py-2" style="color: #ffffff;"></i>
                                 <span class="d-none d-md-inline-block">Home</span>
                             </div>
-                            <div class="my_nav-bot">
-                                <i class="fa-solid fa-chart-simple me-md-3 mb-3" style="color: #ffffff;"></i>
-                                <span class="d-none d-md-inline-block">Stats</span>
+                            <div class="my_nav-bot px-1">
+                                <i class="fa-solid fa-chart-simple me-md-3 py-2" style="color: #ffffff;"></i>
+                                <span class="d-none d-md-inline-block ms-1">Stats</span>
                             </div>
-                            <div class="my_nav-bot">
-                                <i class="fa-solid fa-signal me-md-3" style="color: #ffffff;"></i>
+                            <div class="my_nav-bot px-1">
+                                <i class="fa-solid fa-signal me-md-3 py-2" style="color: #ffffff;"></i>
                                 <span class="d-none d-md-inline-block">Signals</span>
                             </div>
                         </div>
                         <div class="my_bottom position-absolute">
-                            <div class="my_nav-bot">
-                                <i class="fa-solid fa-gear me-md-3" style="color: #ffffff;"></i>
+                            <div class="my_nav-bot px-1">
+                                <i class="fa-solid fa-gear me-md-3 py-2" style="color: #ffffff;"></i>
                                 <span class="d-none d-md-inline-block">Admin</span>
                             </div>
                         </div>
@@ -80,47 +82,80 @@
                         <div class="row text-white py-3">
                             <!-- ----New student---- -->
                             <div class="col-12 order-md-3 col-md-4 col-lg-3">
-                                <nav class="navbar-dark">
-                                    <div class="container-fluid">
-                                      <a class="navbar-brand" href="#">Nuovo Studente</a>
-                                      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
-                                        <span class="navbar-toggler-icon"></span>
-                                      </button>
-                                      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-                                        <div class="offcanvas-header">
-                                          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
-                                          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                                        </div>
-                                        <div class="offcanvas-body">
-                                          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                                            <li class="nav-item">
-                                              <a class="nav-link active" aria-current="page" href="#">Home</a>
-                                            </li>
-                                            <li class="nav-item">
-                                              <a class="nav-link" href="#">Link</a>
-                                            </li>
-                                            <li class="nav-item dropdown">
-                                              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                                Dropdown
-                                              </a>
-                                              <ul class="dropdown-menu">
-                                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                                <li>
-                                                  <hr class="dropdown-divider">
-                                                </li>
-                                                <li><a class="dropdown-item" href="#">Something else here</a></li>
-                                              </ul>
-                                            </li>
-                                          </ul>
-                                          <form class="d-flex mt-3" role="search">
-                                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                                            <button class="btn btn-outline-success" type="submit">Search</button>
-                                          </form>
-                                        </div>
-                                      </div>
+                                <span>Nuovo studente</span>
+                                <button class="btn btn-primary btn-outline-light" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i class="fa-solid fa-plus"></i></button>
+                                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                                    <div class="offcanvas-header text-black">
+                                        <h5 class="offcanvas-title" id="offcanvasRightLabel">Inserisci un nuovo studente</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                                     </div>
-                                  </nav>
+                                    <div class="offcanvas-body text-black">
+                                        <div class="conteiner">
+                                            <div class="row g-3">
+                                                <div class="col-6 mb-2">
+                                                    <label for="validationCustom1" class="form-label">Nome</label>
+                                                    <input type="text" class="form-control" id="validationCustom1" required>
+                                                </div>
+                                                <div class="col-6 mb-2">
+                                                    <label for="validationCustom2" class="form-label">Cognome</label>
+                                                    <input type="text" class="form-control" id="validationCustom2" required>
+                                                </div>
+                                                <div class="col-6 mb-2">
+                                                    <label for="exampleInputEmail1" class="form-label">Indirizzo Email</label>
+                                                    <div class="input-group mb-3">
+                                                        <span class="input-group-text" id="basic-addon1">@</span>
+                                                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="basic-addon1">
+                                                    </div>                                              
+                                                </div>
+                                                <div class="col-6 mb-2">
+                                                    <label for="inputPassword1" class="form-label">Password</label>
+                                                    <input type="password" id="inputPassword1" class="form-control" aria-describedby="passwordHelpInline">
+                                                </div>
+                                                <div class="col-6 mb-2">
+                                                    <label for="exampleInputEmail2" class="form-label">Indirizzo Email</label>
+                                                    <div class="input-group mb-3">
+                                                        <span class="input-group-text" id="basic-addon2">@</span>
+                                                        <input type="email" class="form-control" id="exampleInputEmail2" aria-describedby="basic-addon1">
+                                                    </div>
+                                                </div>
+                                                <div class="col-6 mb-2">
+                                                    <label for="inputPassword2" class="form-label">Password</label>
+                                                    <input type="password" id="inputPassword2" class="form-control" aria-describedby="passwordHelpInline">
+                                                </div>
+                                                <div class="col-12">
+                                                    <label for="validationCustom3" class="form-label">Indirizzo</label>
+                                                    <input type="text" class="form-control" id="validationCustom3" required>
+                                                </div>
+                                                <div class="col-6 mb-2">
+                                                    <label for="validationTooltip1" class="form-label">Città</label>
+                                                    <input type="text" class="form-control" id="validationTooltip1" required>
+                                                </div>
+                                                <div class="col-4 mb-2">
+                                                    <label for="validationTooltip2" class="form-label">Stato</label>
+                                                    <select class="form-select" id="validationTooltip2" required>
+                                                    <option selected disabled value="">Scegli...</option>
+                                                    <option>...</option>
+                                                </div>
+                                                <div class="col-2 mb-2">
+                                                    <label for="validationTooltip3" class="form-label">CAP</label>
+                                                    <input type="text" class="form-control" id="validationTooltip3" required>
+                                                </div>
+                                                <div class="col-12">
+                                                    <label for="inputGroupFile1" class="form-label">Foto</label>
+                                                    <input type="file" class="form-control" id="inputGroupFile1">
+                                                </div>
+                                                <div class="col-12 mb-2 ms-3 form-check">
+                                                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                                    <label class="form-check-label" for="exampleCheck1">Seleziona per proseguire</label>
+                                                </div>
+                                                <div class="col-12">
+                                                    <button type="submit" class="btn btn-primary">Salva</button>
+                                                    <button type="reset" class="btn btn-warning">Svuota</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                             <!-- ----Boolean---- -->
                             <div class="col-12 col-md-4 col-lg-6">
@@ -132,10 +167,10 @@
                                     <div class="col-12">
                                         <span class="badge rounded-pill my_pillbg">3 app</span>
                                         <span><i class="fa-solid fa-angles-right" style="color: #ffffff;"></i></span>
-                                        <span class="badge rounded-pill my_pillbg d-none d-md-inline-block">Boolean mobile app</span>
-                                        <span class="badge rounded-pill my_pillbg d-none d-md-inline-block">Boolean web app</span>
-                                        <span class="badge rounded-pill my_pillbg d-none d-md-inline-block">Boolean blog app</span>
-                                        <span class="badge rounded-pill my_pillbg d-md-none">+</span>
+                                        <span class="badge rounded-pill my_pillbg d-none d-lg-inline-block">Boolean mobile app</span>
+                                        <span class="badge rounded-pill my_pillbg d-none d-lg-inline-block">Boolean web app</span>
+                                        <span class="badge rounded-pill my_pillbg d-none d-lg-inline-block">Boolean blog app</span>
+                                        <span class="badge rounded-pill my_pillbg d-lg-none">+</span>
                                     </div>
                                 </div>
                             </div>
@@ -148,14 +183,14 @@
                     </div>
                     <!-- ----Center area---- -->
                     <div class="col-12">
-                        <div class="row">
+                        <div class="row my_bg-lightgrey2">
                             <!-- ----Left part---- -->
                             <div class="col-12 col-md-8">
 
-                                <div class="my_prossime border rounded my-4">
+                                <div class="my_prossime border rounded my-4 bg-white">
                                     <h1 class="ps-3 my_bg-lightgrey border-bottom pb-3 fs-2">Prossime classi</h1>
                                     <div class="p-3">
-                                        <table class="table table-responsive">
+                                        <table class="table table-responsive table-hover">
                                             <thead>
                                                 <tr>
                                                     <th scope="col" class="my_firstrow p-0 pb-2">Nome</th>
@@ -168,7 +203,7 @@
                                             <tbody>
                                                 <tr>
                                                     <td scope="row">
-                                                        <img src="img/class-avatar.jpg" alt="">
+                                                        <img src="img/class-avatar.png" alt="">
                                                         Classe 75
                                                     </td>
                                                     <td class="d-none d-sm-table-cell">16 Feb 2021</td>
@@ -181,7 +216,7 @@
                                                 </tr>
                                                 <tr>
                                                     <td scope="row">
-                                                        <img src="img/class-avatar.jpg" alt="">
+                                                        <img src="img/class-avatar.png" alt="">
                                                         Classe 76
                                                     </td>
                                                     <td class="d-none d-sm-table-cell">17 Feb 2021</td>
@@ -194,7 +229,7 @@
                                                 </tr>
                                                 <tr>
                                                     <td scope="row">
-                                                        <img src="img/class-avatar.jpg" alt="">
+                                                        <img src="img/class-avatar.png" alt="">
                                                         Classe 77
                                                     </td>
                                                     <td class="d-none d-sm-table-cell">18 Feb 2021</td>
@@ -207,7 +242,7 @@
                                                 </tr>
                                                 <tr>
                                                     <td scope="row">
-                                                        <img src="img/class-avatar.jpg" alt="">
+                                                        <img src="img/class-avatar.png" alt="">
                                                         Classe 78
                                                     </td>
                                                     <td class="d-none d-sm-table-cell">19 Feb 2021</td>
@@ -220,7 +255,7 @@
                                                 </tr>
                                                 <tr>
                                                     <td scope="row">
-                                                        <img src="img/class-avatar.jpg" alt="">
+                                                        <img src="img/class-avatar.png" alt="">
                                                         Classe 79
                                                     </td>
                                                     <td class="d-none d-sm-table-cell">20 Feb 2021</td>
@@ -233,7 +268,7 @@
                                                 </tr>
                                                 <tr>
                                                     <td scope="row">
-                                                        <img src="img/class-avatar.jpg" alt="">
+                                                        <img src="img/class-avatar.png" alt="">
                                                         Classe 80
                                                     </td>
                                                     <td class="d-none d-sm-table-cell">21 Feb 2021</td>
@@ -246,7 +281,7 @@
                                                 </tr>
                                                 <tr>
                                                     <td scope="row">
-                                                        <img src="img/class-avatar.jpg" alt="">
+                                                        <img src="img/class-avatar.png" alt="">
                                                         Classe 81
                                                     </td>
                                                     <td class="d-none d-sm-table-cell">22 Feb 2021</td>
@@ -259,7 +294,7 @@
                                                 </tr>
                                                 <tr>
                                                     <td scope="row">
-                                                        <img src="img/class-avatar.jpg" alt="">
+                                                        <img src="img/class-avatar.png" alt="">
                                                         Classe 82
                                                     </td>
                                                     <td class="d-none d-sm-table-cell">15 Feb 2021</td>
@@ -275,7 +310,7 @@
                                     </div>
                                 </div>
 
-                                <div class="my_faq border rounded">
+                                <div class="my_faq border rounded bg-white">
                                     <h1 class="ps-3 my_bg-lightgrey border-bottom pb-3 fs-2">F.A.Q.</h1>
                                     <div class="accordion accordion-flush m-3" id="accordionFlushExample">
 
@@ -330,7 +365,7 @@
                             <!-- ----Right part---- -->
                             <div class="col-12 col-md-4">
 
-                                <div class="my_todo border rounded my-4">
+                                <div class="my_todo border rounded my-4 bg-white">
                                     <h1 class="ps-3 my_bg-lightgrey border-bottom pb-3 fs-2">Todo</h1>
                                     <div class="my_check border rounded m-3">
                                         <div class="form-check m-2">
@@ -356,7 +391,7 @@
                                     </div>
                                 </div>
 
-                                <div class="my_chart border rounded">
+                                <div class="my_chart border rounded bg-white">
                                     <div class="my_border border rounded m-3 pb-2">
                                         <img src="img/stats.jpeg" alt="">
                                         <h3 class="ps-3">Utenti attivi</h3>

@@ -15,6 +15,10 @@
     background-color: #f7f7f7;
 }
 
+.my_bg-lightgrey2{
+    background-color: #f8f9fa;
+}
+
 .my_right-search{
     width: fit-content;
 }
@@ -26,6 +30,15 @@
     width: 70px;
     /* ----md size--- */
     /* width: 170px; */
+}
+
+.my_nav-bot:hover{
+    background-color: #e5e5e5b0;
+    cursor: pointer;
+}
+
+#offcanvasRight{
+    width: 40%;
 }
 
 .my_center{
@@ -65,17 +78,18 @@ td img{
 
 @media screen and (min-width: 576px) {
 
-    .my_bg-blu{
-        background-color: #1b72e8;
-        height: 120px;
-    }
-
     .my_firstrow{
         width: auto;
     }
 }
 
 @media screen and (min-width: 768px) {
+    
+    .my_bg-blu{
+        background-color: #1b72e8;
+        height: 120px;
+    }
+
     .my_nav{
         width: 170px;
     }
