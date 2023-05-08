@@ -50,6 +50,10 @@
     bottom: 1.5rem;
 }
 
+.dropdown .btn{
+    border: none;
+}
+
 span.my_pillbg{
     background-color: #165bba;
 }
