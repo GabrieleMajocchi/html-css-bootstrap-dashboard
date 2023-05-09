@@ -52,7 +52,7 @@
 }
 
 #offcanvasRight{
-    width: 40%;
+    width: 100%;
 }
 
 .my_center{
@@ -100,13 +100,20 @@ td img{
 }
 
 @media screen and (min-width: 768px) {
-    
-    .my_bg-blu{
-        background-color: #1b72e8;
-        height: 120px;
-    }
 
     .my_nav{
         width: 170px;
     }
+
+    #offcanvasRight{
+        width: 40%;
+    }
+}
+
+@media screen and (min-width: 576px) {
+    
+    .my_bg-blu{
+        height: 120px;
+    }
+
 }
